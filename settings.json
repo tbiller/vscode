@@ -1,0 +1,56 @@
+{
+  "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 22,
+  "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  /**
+   * Better Defaults
+   **/
+  "editor.copyWithSyntaxHighlighting": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.emptySelectionClipboard": false,
+  "workbench.editor.enablePreview": false,
+  "window.newWindowDimensions": "inherit",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "files.trimTrailingWhitespace": true,
+  "diffEditor.renderSideBySide": false,
+  "editor.snippetSuggestions": "top",
+  "editor.detectIndentation": false,
+  "window.nativeFullScreen": false,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+
+  /**
+   * Hide Everything
+   **/
+  "workbench.activityBar.visible": false,
+  "workbench.sideBar.location": "right",
+  "workbench.editor.showTabs": false,
+  "workbench.statusBar.visible": true,
+  "editor.minimap.enabled": false,
+
+  /**
+   * Emmet
+   **/
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  /**
+   * Prettier
+   **/
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 100,
+  "prettier.trailingComma": "es5",
+
+  /**
+   * Terminal
+   **/
+  "terminal.integrated.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+  "terminal.integrated.fontSize": 13,
+  "workbench.colorTheme": "Palenight Theme"
+}
